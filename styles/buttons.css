@@ -1,0 +1,95 @@
+button.changePersonalInfoButton
+{
+	border:3px solid rgb(255,220,0);
+	background-color: rgb(255,240,140);
+	font-size: 16px;
+}
+button.addQuizButton
+{
+	border:3px solid rgb(255,140,30);
+	background-color: rgb(255,195,140);
+}
+button.logOutButton
+{
+	#border:3px solid rgb(255,50,50);
+	#background-color: rgb(255,110,110);
+	border:0px;
+	background-color: rgb(240,50,50);
+	color:#EEEEEE;
+}
+button.OKButton
+{
+	border:0px solid rgb(180,180,180);
+	background-color: rgb(200,200,200);
+}
+button.registerButton
+{
+	#border:3px solid rgb(0,255,160);
+	border: 0px;
+	background-color: rgb(150,255,100);
+}
+button.logInButton
+{
+	#border:3px solid rgb(0,200,0);
+	border: 0px;
+	background-color: rgb(140,255,140);
+}
+button.modeEnterButton
+{
+	border:3px solid rgb(180,180,180);
+	background-color: rgb(220,220,220);
+}
+button.yesButton
+{
+	border:0px;
+	background-color: rgb(72,210,27);
+}
+button.noButton
+{
+	border:0px;
+	background-color: rgb(210,27,27);
+}
+button.GoButton
+{
+	border:0px solid rgb(180,180,180);
+	background-color: rgb(240,240,240);
+}
+button.backButton
+{
+	border:0px solid rgb(180,180,180);
+	background-color: rgb(100,130,240);
+	color:#EEEEEE;
+}
+button.verySmallButton
+{
+	padding:5px;
+	margin:3px;
+	font-size: 14px;
+}
+button.smallButton
+{
+	padding:5px;
+	margin:5px;
+	font-size: 16px;
+}
+button.bigButton
+{
+	padding:10px;
+	margin:8px;
+	font-size: 18px;
+}
+button.floatingButton
+{
+	float:right;
+}
+div#checkButton
+{
+	cursor: hand;
+	cursor: pointer;
+}
+button
+{
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}

@@ -1,0 +1,1 @@
+<h1 style='text-align:center; margin-top:100px'>Strona w przygotowaniu! Zapraszamy od 23 marca 2015</h1>

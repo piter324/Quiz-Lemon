@@ -1,0 +1,538 @@
+body
+{
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	#background-color: rgb(20,10,0);
+	#background-color: #DDDDDD;
+}
+.border-top-to-bottom
+{
+	border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to white, white, rgba(0, 0, 0, 0)) 1 100%;
+  }
+div#totalContainer
+{
+	max-width:1500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+}
+div#feedContentContainer
+{
+	#border:2px solid #AAAAAA;
+}
+div#textQuizEngine
+{
+	text-align: center;
+	font-size: 150px;
+}
+div#upContainer
+{
+	margin-top: 80px;
+	#background-color: rgba(0,0,0,1);
+	margin-bottom: 50px;
+}
+div#newestQuizzesContainer
+{
+	color:#000000;
+}
+div#feedContentContainer
+{
+	background-color:#FF7522;
+	color:#FFFFFF;
+	padding:10px;
+	min-height: 400px;
+}
+div#newestQuizesList
+{
+	height:100%;
+	vertical-align: middle;
+}
+div#somehowTotalContainer
+{
+	background-color: rgba(60,0,80,1);
+	color:#FFFFFF;
+	padding: 5px;
+}
+div#slideDownTrigger
+{
+	text-align: right;
+	padding: 5px;
+	font-size: 20px;
+	cursor: hand;
+	cursor: pointer;
+}
+div#slideDownDiv
+{
+	display: none;
+}
+div#slideDownDivTable
+{
+	display:table;
+	width:100%;
+	table-layout:fixed;
+	max-width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div#myAccountContainer
+{
+	padding: 15px;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	max-width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div#myAccountItself
+{
+	display: table-cell;
+	padding: 5px;
+}
+div#myAccountContainerRow
+{
+	display: table-row;
+}
+div#registerOrMyAccountDiv
+{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	left: 0px;
+	#width:1000px;
+}
+div#registerContainer
+{
+	background-color:#00AE2C;
+	color:#FFFFFF;
+}
+div#personalInfo
+{
+	padding:5px;
+	display: table-cell;
+}
+div.buttonsTable
+{
+	display:table;
+	table-layout: fixed;
+	width: 100%;
+}
+div.buttonsTableRow
+{
+	display:table-row;
+}
+div.buttonsTableAction
+{
+	display:table-cell;
+	color:#000000;
+	padding:20px;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: hand;
+	cursor: pointer;
+}
+div#changePersonalInfoAction
+{
+	background-color: rgb(255,220,0);
+}
+div#addQuizAction
+{
+	background-color: rgb(255,140,30);
+}
+div#myQuizes
+{
+	padding:5px;
+	display: table-cell;
+	vertical-align: top;
+}
+div.myQuizesElement
+{
+	cursor:hand;
+	cursor:pointer;
+	padding:1px 10px;
+}
+div.myQuizesElement:hover
+{
+	background-color: rgba(80,20,100,1);
+}
+div#changePersonalInfoDiv
+{
+	background-color:rgba(255,255,255,0.2);
+	#border:1px solid rgba(255,255,255,0.2);
+	padding:5px;
+	display:none;
+}
+div#changePersonalInfoDivTable
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+div#logInDiv
+{
+	text-align: center;
+	display: table-cell;
+	padding: 10px;
+	vertical-align: middle;
+}
+div#personalInfoItself
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 100px;
+}
+div#addQuizDiv
+{
+	background-color:rgba(255,255,255,0.2);
+	#border:1px solid rgba(255,255,255,0.2);
+	padding:5px;
+	display:none;
+}
+div#addQuizDivTable
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+div#registerDiv
+{
+	text-align: center;
+	display: table-cell;
+	padding: 10px;
+	vertical-align: middle;
+}
+div.registerDivMember
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+div.slidingPanel
+{
+	margin-top: 5px;
+}
+div#newQuizesFeed
+{
+	display: table-cell;
+	#background-color: #FF9A5E;
+	#color: #333333;
+	padding:10px;
+	#vertical-align: middle;
+}
+div#newestQuizzesContentTable
+{
+	 display:table; 
+	 width:100%; 
+	 table-layout:fixed;
+	 border-spacing: 10px;
+	 color:#000000;
+}
+div#allQuizesListContainer
+{
+	background-color: #0062D9;
+	color:#FFFFFF;
+	padding:20px;
+}
+div.newestQuizMemberTable
+{
+	display: table;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width:100%;
+	margin:0px;
+}
+div.newestQuizMemberTableRow
+{
+	display: table-row;
+}
+div.newestQuizMember
+{
+	font-size: 22px;
+	padding: 10px;
+	vertical-align: middle;
+	cursor: hand;
+	cursor: pointer;
+	display: table-cell;
+	#width:204px;
+	height:200px;
+	#border:1px solid #000000;
+	background-size: cover;
+	vertical-align: bottom;
+}
+div.newestQuizMember:hover
+{
+	box-shadow:inset 0 0 200px 200px rgba(255,255,255,0.5);
+}
+div.newestQuizOrderNumber
+{
+	font-size: 40px;
+	background-color: rgba(220,220,220,0.8);
+	padding: 2px;
+	display: inline-block;
+	text-align: center;
+}
+div.newestQuizMemberTitleText
+{
+	padding: 2px;
+	background-color: rgba(255,255,255,0.8);
+}
+div#mostdoneQuizesFeed
+{
+	display: table-cell;
+	padding:10px;
+	#vertical-align: middle;
+}
+div.mostdoneQuizMemberTable
+{
+	display: table;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width:100%;
+	margin:0px;
+}
+div.mostdoneQuizMemberTableRow
+{
+	display: table-row;
+}
+div.mostdoneQuizMember
+{
+	font-size: 22px;
+	padding: 10px;
+	vertical-align: middle;
+	cursor: hand;
+	cursor: pointer;
+	display: table-cell;
+	#width:204px;
+	height:200px;
+	#border:1px solid #000000;
+	background-size: cover;
+	vertical-align: bottom;
+}
+div.mostdoneQuizMember:hover
+{
+	box-shadow:inset 0 0 200px 200px rgba(255,255,255,0.5);
+}
+div.mostdoneQuizOrderNumber
+{
+	font-size: 40px;
+	margin-right: 5px;
+}
+div.mostdoneQuizMemberTitleText
+{
+	padding: 2px;
+	background-color: rgba(255,255,255,0.8);
+}
+div.mostdoneQuizMemberTitleTimesdone
+{
+	font-size: 40px;
+	background-color:rgba(220,220,220,0.8);
+	display: inline-block;
+	padding: 2px;
+	padding-bottom:0px;
+}
+div.mostdoneQuizMemberTitleTimesdoneText
+{
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: bottom;
+	padding:2px;
+	background-color:rgba(220,220,220,0.8);
+}
+div#myQuizesList
+{
+	max-height:300px;
+	overflow: auto;
+}
+div#quizesList
+{
+	height: 300px;
+	overflow: auto;
+}
+div.quizesListMember
+{
+	padding: 5px;
+}
+div.quizesListMember:hover
+{
+	background-color: #1A81FF;
+	cursor:hand;
+	cursor:pointer;
+}
+div.quizesListMemberTable
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	border-spacing: 0px;
+}
+div.quizesListMemberRow
+{
+	display: table-row;
+}
+div.quizesListMemberCell
+{
+	display: table-cell;
+}
+div.quizesListMemberTitle
+{
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+div.quizesListMemberTitleText
+{
+	width: 90%;
+}
+div.quizCategory
+{
+	display: none;
+}
+input#searchField
+{
+	width:60%;
+	height:40px;
+	font-size: 20px;
+}
+p#searchFieldPara
+{
+	margin-top:0px;
+	font-size:22px;
+	text-align: center;
+}
+button.goToQuizButton
+{
+	
+}
+h2
+{
+	font-weight: normal;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+h3
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:2px;
+	margin-bottom: 2px;
+}
+h3.spaced
+{
+	letter-spacing: 2px;
+	color:#FFFFFF;
+}
+span#textQuiz
+{
+	background-color: rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+	border-top: 10px solid #FFFFFF;
+	border-bottom: 10px solid #FFFFFF;
+	border-left: 10px solid #FFFFFF;
+	padding:20px;
+	padding-top: 10px;
+}
+span#textEngine
+{
+	background-color: rgba(255,255,255,1);
+	color:rgba(0,0,0,1);
+	border-top: 10px solid #000000;
+	border-right: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	padding:20px;
+	padding-top: 10px;
+}
+p.personalInfoMember
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+div.addQuizDivMember
+{
+	display: table-row;
+}
+div.addQuizDivMemberCell
+{
+	display: table-cell;
+	padding: 2px;
+}
+div.addQuizDivMemberOKButton
+{
+	width: 10%;
+	text-align: right;
+}
+div.addQuizDivMemberCaption
+{
+	text-align: right;
+}
+input.addQuizTextBox
+{
+	width: 100%;
+}
+p.uname
+{
+	font-size: 20px;
+}
+div.changePersonalInfoDivMember
+{
+	display: table-row;
+}
+div.changePersonalInfoDivMemberCell
+{
+	display: table-cell;
+	padding: 2px;
+}
+div.changePersonalInfoOKButton
+{
+	width:10%;
+	text-align: right;
+}
+div.changePersonalInfoCaption
+{
+	text-align:right;
+}
+input.changePersonalInfoTextBox
+{
+	width:100%;
+}
+p.quizTitle
+{
+	margin-bottom: 0px;
+}
+p.quizMeta
+{
+	margin-top: 0px;
+	font-size: 14px;
+	color:#AAAAAA;
+}
+img.profilePicPersInfo
+{
+	width:70px;
+	height:70px;
+	border-radius: 45;
+	margin:5px;
+	display:inline-block;
+	vertical-align: middle;
+}
+img.closingxwhite
+{
+	height: 20px;
+	width: 20px;
+}

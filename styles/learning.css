@@ -1,0 +1,101 @@
+body
+{
+	font-size: 22px;
+	padding: 0px;
+	margin: 0px;
+	#background-color: rgb(20,10,0);
+	background-color: #FFFFFF;
+}
+div#totalContainer
+{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+}
+div#quizAndModeTitle
+{
+	text-align: center;
+}
+p#quizTitle
+{
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+p#modeTitle
+{
+	font-size: 35px;
+	margin-top: 0px;
+}
+div#questionsList
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+div.questionsListMember
+{
+	display: table-row;
+}
+div.questionsListMemberCell
+{
+	display: table-cell;
+	padding:5px;
+	vertical-align: middle;
+}
+div.questionsListMemberQuestion
+{
+	text-align: right;
+	border-right:5px solid rgb(255,212,0);
+}
+div#singleQuestionContainer
+{
+	font-size: 40px;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+div#singleQuestion
+{
+	background-color:#F5AD22;
+	text-align: left;
+	padding:15px;
+	margin-right: 100px;
+}
+div#singleAnswer
+{
+	background-color:#86E000;
+	text-align: right;
+	padding:15px;
+	margin-left: 100px;
+	margin-top:10px;
+}
+div#singleQuestionContainer
+{
+	text-align: center;
+}
+div#countQuestions
+{
+	font-size:30px;
+}
+div#singleQuestionActions
+{
+	text-align: center;
+	margin-top: 20px;
+	font-size:30px;
+}
+div#timedChange
+{
+
+}
+div.singleQuestionActionButton
+{
+	padding:10px;
+	padding-bottom: 0px;
+	background-color: #CCCCCC;
+	vertical-align: middle;
+	cursor: hand;
+	cursor: pointer;
+}

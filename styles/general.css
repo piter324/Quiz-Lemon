@@ -1,0 +1,134 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+input
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+select
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	border-radius: 0px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #AAAAAA;
+}
+.inlinowe
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.inlinoweVertTop
+{
+	display: inline-block;
+	vertical-align: top;
+}
+div#pleaseWaitContainer
+{
+	display: none;
+	position: fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color: rgba(0,0,0,0.8);
+}
+div#pleaseWaitText
+{
+	text-align: center;
+	left:0px;
+	right:0px;
+	font-size: 80px;
+	color:#FFFFFF;
+	position: fixed;
+}
+div#footer
+{
+	font-size: 12px;
+	text-align: center;
+	position:relative;
+	bottom:0px;
+	right: 0px;
+	left: 0px;
+	padding: 5px;
+	margin-top: 20px;
+}
+div.invisible
+{
+	display: none;
+}
+img.upLogo
+{
+	width:80%; 
+	height:80%; 
+}
+img.fourtyPixels
+{
+	width:40px; 
+	height:40px; 
+}
+img.thirtyPixels
+{
+	width:30px; 
+	height:30px; 
+}
+img.twentyPixels
+{
+	width:20px; 
+	height:20px; 
+}
+img.tenPixels
+{
+	width:10px; 
+	height:10px; 
+}
+div#upContainer
+{
+	margin-top: 50px;
+	#background-color: rgba(0,0,0,1);
+	margin-bottom: 50px;
+}
+div#upMeta
+{
+	text-align:center;
+	margin-left: 10px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgba(200,200,200,1);
+}
+p#upMetaHour
+{
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+p#upMetaDate
+{
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+p#upMetaUsername
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+textarea
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+a
+{
+	text-decoration: none;
+	color:#2222FF;
+}
+a:visited
+{
+	text-decoration: none;
+	color:#3993D5;
+}

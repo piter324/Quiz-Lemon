@@ -1,0 +1,86 @@
+body
+{
+	font-size:18px;
+	font-family:Trebuchet MS;
+}
+div#totalcontainer
+{
+	width:900px;
+	margin:10px auto auto auto;
+	text-align:center;
+}
+div#header
+{
+	font-size:36px;
+}
+div.mode
+{
+	display:inline-block;
+	vertical-align:middle;
+	margin:10px;
+	padding:20px;
+}
+div#learning
+{
+	background:rgb(63,197,230);
+	#color:white;
+}
+div#testing
+{
+	background:rgb(255,189,32);
+}
+div#testing2
+{
+	background:rgb(255,160,220);
+}
+div#wordlist
+{
+	display:table;
+	margin:auto;
+	background:rgb(240,240,240);
+	border-spacing:2px;
+}
+div.tableHeader
+{
+	border-bottom:1px solid #000000;
+	font-size:20px;
+}
+div.backbutton
+{
+	color:#000000;
+	text-decoration:none;
+}
+div.row
+{
+	display:table-row;
+	
+}
+div.cell
+{
+	background:rgb(220,220,220);
+	padding:5px;
+}
+div.id
+{
+	display:table-cell;
+	width:100px;
+}
+div.phrase
+{
+	display:table-cell;
+}
+div.translation
+{
+	display:table-cell;
+}
+button.startButton
+{
+	background:rgb(180,241,94);
+	border:2px solid #88DD88;
+	padding:5px;
+	font-size:16px;
+}
+h2
+{
+	margin-top:0px;
+}
